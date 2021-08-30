@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #f65e39;
+    --text-color: #222;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/* Grid */
+.grid {
+    width: 1260px;
+    max-width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Icon luxstay */
+.icon-luxstay {
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 0;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.icon-luxstay .icon-luxstay-img:hover {
+    fill: var(--primary-color);
+}
+
+/* Btn directional */
+
+.btn-directional {
+    position: absolute;
+    top: 50%;
+    left: -15px;
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-radius: 56px;
+    box-shadow: 0 0 7px -4px #000;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.directional-arrow-left {
+    font-weight: 300;
+}
+
+.btn-directional-light {
+    position: absolute;
+    top: 50%;
+    right: -15px;
+    width: 56px;
+    height: 56px;
+    border: none;
+    border-radius: 56px;
+    box-shadow: 0 0 7px -4px #000;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.btn-directional-light:hover {
+    outline: none;
+    box-shadow: 0 0 5px 0 rgb(246 94 57 / 50%);
+}
+
+.btn-directional-arrow-right {
+    font-weight: 300;
+}
